@@ -1,0 +1,115 @@
+/* Reset de estilos para el body y header */
+body, header {
+    text-align: center;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Estilos para el header */
+  header {
+    display:flex;justify-content:center;align-items:center;
+    height:350px;background:url(img/banerdef.png)no-repeat center top;background-size:cover ;
+    margin-bottom: 100px;
+    
+  }
+
+
+  /* Estilos para los títulos */
+
+  h1 {
+    margin-bottom: 140px;
+    font-size: 35px;
+    font-family: 'Playfair Display', serif;
+    text-transform: uppercase;
+    font-style: normal;
+    font:300 20px ;
+    text-align: center;
+    padding: 50px;
+    color: #333;
+    background-color: rgb(227, 230, 231);
+    border-radius: 20px;
+  }
+  h2 {
+    font-size: 24px;
+    font-family: 'Playfair Display', serif;
+    font-style: normal;
+    font:300 20px ;
+    text-align-last:unset;
+    padding: 80px;
+    color: #333;
+    border-radius: 20px;
+    
+  }
+  
+  /* Estilos para los párrafos */
+  p { align-content: center;
+    text-align: center;font-weight: 300;font-stretch: condensed;
+    font-family:'Playfair Display', serif; 
+    font-size: 30px;
+    color: #666;
+  }
+  
+  
+
+  /* Estilos para los enlaces */
+  a {
+    color: #d5dee7;
+    text-decoration: none;
+    border-bottom: 1px;color:#fff;
+    padding:0% 20px;
+    text-decoration:none;
+    text-transform:uppercase;
+  }
+  
+
+  /* Estilos para los botones */
+  .btn {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 15px;
+  }
+  
+  /* Estilos para las secciones */
+  section {
+    padding: 40px;
+    padding-bottom:0 20px #999 ;
+  }
+  
+  /*Contenido de servicios*/
+ ul.figure{
+   
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    font-family:'Playfair Display', serif; 
+    font-size: 20px
+   
+  }
+  figcaption{
+    
+    align-items: center;
+    display: flex;
+    justify-content: center; 
+    font-family:'Playfair Display', serif;
+    font-size: 20px
+  
+   
+ }
+  
+ /* Estilo para los formularios */
+form {
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+
+}
+
+  /* Estilos para los bloques de cita */
+  blockquote {
+    font-size: 18px
+  }
